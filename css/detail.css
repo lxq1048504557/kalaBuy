@@ -1,0 +1,234 @@
+.main {
+  height: 902px;
+  border-top: 2px solid #333; }
+  .main .boxwrap {
+    height: 902px;
+    width: 1094px;
+    margin: 0 auto; }
+    .main .boxwrap .top {
+      height: 610px;
+      width: 1094px; }
+      .main .boxwrap .top .proQuility {
+        height: 65px;
+        width: 1094px;
+        border-bottom: 1px solid #dddddd; }
+        .main .boxwrap .top .proQuility p {
+          float: left;
+          height: 65px;
+          width: 406px;
+          line-height: 65px;
+          font-size: 12px;
+          color: #999999; }
+          .main .boxwrap .top .proQuility p a {
+            color: #333333; }
+        .main .boxwrap .top .proQuility ul {
+          float: right;
+          height: 65px;
+          width: 363px;
+          font-size: 12px; }
+          .main .boxwrap .top .proQuility ul li {
+            height: 65px;
+            line-height: 65px;
+            float: left;
+            margin-left: 5px; }
+          .main .boxwrap .top .proQuility ul li:nth-of-type(1) a, .main .boxwrap .top .proQuility ul li:nth-of-type(2) a {
+            display: inline-block;
+            height: 20px;
+            width: 90px;
+            border-radius: 6px;
+            border: 1px solid #a5804f;
+            line-height: 20px;
+            text-align: center;
+            color: #a5804f; }
+          .main .boxwrap .top .proQuility ul li:nth-of-type(3), .main .boxwrap .top .proQuility ul li:nth-of-type(4) {
+            display: inline-block;
+            height: 20px; }
+            .main .boxwrap .top .proQuility ul li:nth-of-type(3) a, .main .boxwrap .top .proQuility ul li:nth-of-type(4) a {
+              color: #666666; }
+      .main .boxwrap .top .proDetail {
+        padding-top: 30px;
+        height: 514px; }
+        .main .boxwrap .top .proDetail .leftAside {
+          float: left;
+          height: 514px;
+          width: 402px; }
+          .main .boxwrap .top .proDetail .leftAside .slider4 .slider0 {
+            height: 82px !important;
+            width: 82px !important; }
+        .main .boxwrap .top .proDetail .rightAside {
+          float: left;
+          height: 514px;
+          width: 692px; }
+          .main .boxwrap .top .proDetail .rightAside .proCountry {
+            height: 28px;
+            width: 692px;
+            line-height: 28px; }
+            .main .boxwrap .top .proDetail .rightAside .proCountry span {
+              font-size: 12px;
+              color: #999999; }
+              .main .boxwrap .top .proDetail .rightAside .proCountry span a {
+                color: #999999; }
+          .main .boxwrap .top .proDetail .rightAside h4 {
+            height: 42px;
+            line-height: 42px;
+            font-size: 16px; }
+          .main .boxwrap .top .proDetail .rightAside .proProduce {
+            height: 40px;
+            font-size: 12px;
+            color: #000000; }
+          .main .boxwrap .top .proDetail .rightAside .priceDetail {
+            height: 404px; }
+            .main .boxwrap .top .proDetail .rightAside .priceDetail .price {
+              height: 48px;
+              font-size: 12px;
+              line-height: 48px; }
+              .main .boxwrap .top .proDetail .rightAside .priceDetail .price p {
+                float: left; }
+              .main .boxwrap .top .proDetail .rightAside .priceDetail .price p:nth-of-type(2) {
+                margin-left: 20px; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .price p:nth-of-type(2) span:nth-of-type(1) {
+                  font-size: 16px;
+                  color: #e31436;
+                  font-weight: bold; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .price p:nth-of-type(2) span:nth-of-type(2) {
+                  margin-left: 10px;
+                  display: inline-block;
+                  height: 18px;
+                  line-height: 18px;
+                  padding: 0 5px;
+                  background: #f68587;
+                  border-radius: 2px; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .price p:nth-of-type(2) span:nth-of-type(3) {
+                  margin-left: 10px;
+                  color: #999999;
+                  font-size: 12px; }
+            .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail {
+              clear: both;
+              height: 346px; }
+              .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop {
+                height: 290px; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(3) span:nth-of-type(2) em {
+                  color: #e31436; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(1) {
+                  margin-top: 10px; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(1) span:nth-of-type(2) strong {
+                    color: #e31436; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p {
+                  font-size: 12px;
+                  width: 692px;
+                  height: 30px; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p em {
+                    font-style: normal; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p span {
+                    float: left;
+                    display: inline-block; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p span:nth-of-type(1) {
+                    margin-left: 0px;
+                    color: #666666; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p span:nth-of-type(2) {
+                    margin-left: 20px; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(5) {
+                  height: 50px; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(5) a {
+                    display: inline-block;
+                    margin-right: 5px; }
+                    .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(5) a img {
+                      height: 40px;
+                      border: 1px solid #666666; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(6) {
+                  margin-top: 5px; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceTop p:nth-of-type(6) em {
+                    text-align: center;
+                    display: inline-block;
+                    width: 10px;
+                    border: 1px solid #6f6f6f; }
+              .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom {
+                height: 56px; }
+                .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom p {
+                  height: 56px;
+                  line-height: 56px; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom p a {
+                    display: inline-block;
+                    height: 46px;
+                    width: 160px;
+                    border: 2px solid #e31436;
+                    text-align: center;
+                    line-height: 46px;
+                    margin-left: 10px; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom p a:nth-child(1) {
+                    background: #ffeced;
+                    color: #eb2651; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom p a:nth-child(2) {
+                    background: #e31436;
+                    color: #fff; }
+                  .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom p a:nth-child(3) {
+                    border: none;
+                    color: #6f6f6f; }
+                    .main .boxwrap .top .proDetail .rightAside .priceDetail .serviceDetail .serviceBottom p a:nth-child(3) i {
+                      color: #e31436;
+                      display: inline-block;
+                      margin-right: 5px; }
+    .main .boxwrap .bottom {
+      height: 292px;
+      width: 1094px; }
+      .main .boxwrap .bottom h4 {
+        height: 57px;
+        width: 1074px;
+        font-size: 16px;
+        line-height: 57px;
+        padding-left: 20px; }
+        .main .boxwrap .bottom h4 a {
+          color: #333; }
+      .main .boxwrap .bottom .tuiPro {
+        height: 233px;
+        width: 1092px;
+        border: 1px solid #6f6f6f; }
+        .main .boxwrap .bottom .tuiPro dl {
+          float: left;
+          width: 138px;
+          height: 195px;
+          margin: 5px 41px 0 0px; }
+          .main .boxwrap .bottom .tuiPro dl dt a {
+            display: block; }
+            .main .boxwrap .bottom .tuiPro dl dt a img {
+              width: 110px;
+              height: 110px; }
+          .main .boxwrap .bottom .tuiPro dl dd a {
+            line-height: 20px;
+            font-size: 12px;
+            color: #333; }
+          .main .boxwrap .bottom .tuiPro dl dd:nth-of-type(2) {
+            height: 15px;
+            line-height: 15px;
+            margin-top: 5px; }
+            .main .boxwrap .bottom .tuiPro dl dd:nth-of-type(2) span:nth-of-type(1) {
+              display: inline-block;
+              color: #e31436;
+              font-weight: bolder;
+              font-size: 16px;
+              margin-right: 10px; }
+            .main .boxwrap .bottom .tuiPro dl dd:nth-of-type(2) span:nth-of-type(2) {
+              font-size: 12px;
+              text-decoration: line-through;
+              color: #999999; }
+          .main .boxwrap .bottom .tuiPro dl dd:nth-of-type(3) {
+            margin-top: 5px; }
+            .main .boxwrap .bottom .tuiPro dl dd:nth-of-type(3) a {
+              display: block;
+              height: 14px;
+              color: #999999;
+              line-height: 14px; }
+
+#gal1 img {
+  border: 1px solid #ccc; }
+
+.active img {
+  border: 1px solid #333 !important; }
+
+#img_0 {
+  width: 300px;
+  height: 300px; }
+
+#gal1 img {
+  width: 80px;
+  height: 80px; }

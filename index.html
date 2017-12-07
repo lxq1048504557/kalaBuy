@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="/PC/pc_project/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="/PC/pc_project/css/index.css"/>
+		<link rel="stylesheet" href="/PC/pc_project/font/iconfont.css" />
+		<link rel="stylesheet" href="/PC/pc_project/lib/xmcarousel/Carousel.css" />
+		<script src="/PC/pc_project/lib/requirejs/require.js" data-main="/PC/pc_project//js/index" type="text/javascript" charset="utf-8"></script>
+		<script src="/PC/pc_project/lib/xmcarousel/XQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/PC/pc_project/lib/xmcarousel/lb.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--滑动到一半时，需要显示的搜索栏-->
+		<div class="siderSearch">
+			<div class="con">
+				<a href="#"><img src="/PC/pc_project/images/logo.png"/></a>
+				<div class="container">
+					<input type="text" placeholder="城野医生" id="topSearch" />
+					<span><i class="iconfont icon-sousuo"></i></span>
+					<span><i class="iconfont icon-sousuo"></i></span>
+				</div>
+				<div class="showSearchMatch">
+					<ul>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+						<li><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+		
+		</div>
+		<!--头部-->
+		<div class="Header">
+			<!--对顶部-->
+		</div>
+		<!--轮播-->
+		<div class="banner">
+			<div id="Box"></div>
+			<ul class="bannerList">
+				<li><a href="#"><i class="iconfont icon-icon125"></i>母婴儿童<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-kouhong"></i>美容彩妆<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-bao"></i>服饰鞋包<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-gehu"></i>家居个护<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-baojianpin"></i>营养保健<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-haiwaizhiyou"></i>海外直邮<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-shumajiadian"></i>数码家电<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-meishi"></i>环球美食<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-huwaiyundong"></i>运动户外<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-shengxianshuiguo"></i>水果生鲜<i class="iconfont icon-xiangyou"></i></a></li>
+				<li><a href="#"><i class="iconfont icon-yaopin"></i>药品资讯<i class="iconfont icon-xiangyou"></i></a></li>
+			</ul>
+		</div>
+		<!--正、邮、退，小插曲广告-->
+		<div class="alertBanner">
+			<div class="container">
+				<ul>
+					<li><a href="#"><i class="iconfont icon-zheng"></i><span>100%正品</span></a></li>
+					<li><a href="#"><i class="iconfont icon-tui"></i><span>30天无忧退货</span></a></li>
+					<li><a href="#"><i class="iconfont icon-you"></i><span>满88包邮（部分特殊商品除外）</span></a></li>
+				</ul>
+				<p><i class="iconfont icon-shouji"></i><a href="#">领考拉1000元新人礼，APP下单更享手机价</a></p>
+			</div>
+		</div>
+		<!--新人专享会场-->
+		<div class="newUser">
+			<ul>
+				<li><a href="#"><img src="/PC/pc_project/images/1buqtjaua63_265_220.jpg"/></a></li>
+				<li><a href="#"><img src="/PC/pc_project/images/1butbfgmb28_265_220.jpg"/></a></li>
+				<li><a href="#"><img src="/PC/pc_project/images/1busmqija1_265_220.jpg"/></a></li>
+				<li><a href="#"><img src="/PC/pc_project/images/1buqtkljq77_265_220.jpg"/></a></li>
+			</ul>
+		</div>
+		<!--今日限时购-->
+		<div class="dailyLimit">
+			<div class="dailyLimitTop">
+				<ul>
+					<li><h2>今日限时购<h2></li>
+					<li>本场还剩</li>
+					<li></li>
+				</ul>
+				<p><a href="#">进入限时购频道></a></p>
+			</div>
+			<div class="dailyLimitBottom">
+				<selection>
+					<script type="text/html" id="listOne">
+						{{each products as product}}
+							<dl>
+								<dt><a href="{{product.href}}"><img src="{{product.img}}"/></a></dt>
+								<dd>
+									<h4><a href="{{product.href}}">{{product.title}}</a></h4>
+									<p><a href="{{product.href}}"><span>2件装|<span>&nbsp;【品牌直采】&nbsp;NORDIC&nbsp;NATUR<br/>ALS&nbsp;挪威小鱼&nbsp;北极D鳕鱼鱼肝油&nbsp;柠檬
+									</a></p>
+									<p><span>{{product.price}}</span><span>￥308</span></p>
+									<div>
+										<p>
+											<span></span>
+											<span>{{product.rethat}}</span>
+										</p>
+										<p>
+											<a href="{{product.href}}">{{product.buyQuick}}</a>
+										</p>
+									</div>
+								</dd>
+						</dl>
+						{{/each}}
+					</script>
+					
+				</selection>
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/j0d9lup691_221_378.jpg"/></a>
+				</aside>
+			</div>
+		</div>
+		<!--每日上新-->
+		<div class="dailyNew">
+			<div class="dailyNewTop">
+				<ul>
+					<li><h2>每日上新</h2></li>
+					<li>全世界好物，0点更新</li>
+				</ul>
+				<p><a href="#">进入新品频道></a></p>
+			</div>
+			<div class="dailyNewBottom">
+				<script type="text/html" id="listTwo">
+					{{each products as Product}}
+						<dl>
+							<dt><a href="#"><img src="{{Product.img}}"/></a></dt>
+							<dd>
+								<h5><a href="#">{{Product.h}}</a></h5>
+								<p><a href="#"><span>{{Product.pO}}</span><span>{{Product.pT}}</span></a></p>
+							</dd>
+						</dl>
+					{{/each}}
+				</script>
+			</div>
+		</div>
+		<!--热门品牌-->
+		<div class="popbrands">
+			<div class="popbrandsTop">
+				<ul>
+					<li><h2>热门品牌</h2></li>
+					<li>全球精选，一网打尽</li>
+				</ul>
+				<p><a href="#">换一批<i class="iconfont icon-huanyipi"></i></a></p>
+			</div>
+			<div class="popbrandsBottom">
+				<aside>
+					<ul>
+						<li>
+							<p><a href="#"><img src="/PC/pc_project/images/iop42wib64_400_400.jpg"/></a></p>
+							<p><a href="#"><span>DeLongh1德龙</span><br />意大利知名的小家电生产商</a></p>
+						</li>
+					</ul>
+				</aside>
+				<section>
+					<ul>
+						<li>
+							<div class="info">
+								<img src="/PC/pc_project/images/iy2l0lq284_120_120.jpg"/>
+								<h5>塑造美丽黄金比例</h5>
+							</div>
+							<div class="mask"></div>
+							<div class="action">
+								<a href="#">+关注</a>
+								<p>96829人关注该品牌</p>
+								<a href="#">进入该品牌></a>
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<img src="/PC/pc_project/images/iig1cnby93_120_120.jpg"/>
+								<h5>每个女孩都需要的tincoco袜</h5>
+							</div>
+							<div class="mask"></div>
+							<div class="action">
+								<a href="#">+关注</a>
+								<p>96829人关注该品牌</p>
+								<a href="#">进入该品牌></a>
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<img src="/PC/pc_project/images/iufgycaw18_120_120.jpg"/>
+								<h5>展现女人的独特魅力</h5>
+							</div>
+							<div class="mask"></div>
+							<div class="action">
+								<a href="#">+关注</a>
+								<p>96829人关注该品牌</p>
+								<a href="#">进入该品牌></a>
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<img src="/PC/pc_project/images/ie9wevvj80.jpg"/>
+								<h5>每个人都有一双阿迪</h5>
+							</div>
+							<div class="mask"></div>
+							<div class="action">
+								<a href="#">+关注</a>
+								<p>96829人关注该品牌</p>
+								<a href="#">进入该品牌></a>
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<img src="/PC/pc_project/images/ix2lppk74_120_120.jpg"/>
+								<h5>你的发际线保卫者</h5>
+							</div>
+							<div class="mask"></div>
+							<div class="action">
+								<a href="#">+关注</a>
+								<p>96829人关注该品牌</p>
+								<a href="#">进入该品牌></a>
+							</div>
+						</li>
+						<li>
+						<div class="info">
+							<img src="/PC/pc_project/images/ietc6xa096_120_120.jpg"/>
+							<h5>中药秘制，专为亚洲发质</h5>
+						</div>
+						<div class="mask"></div>
+						<div class="action">
+							<a href="#">+关注</a>
+							<p>96829人关注该品牌</p>
+							<a href="#">进入该品牌></a>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<img src="/PC/pc_project/images/ibrg5ba047.jpg"/>
+							<h5>日本温泉度假酒店御用</h5>
+						</div>
+						<div class="mask"></div>
+						<div class="action">
+							<a href="#">+关注</a>
+							<p>96829人关注该品牌</p>
+							<a href="#">进入该品牌></a>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<img src="/PC/pc_project/images/iwm3beo892_120_120.jpg"/>
+							<h5>网易原创生活类品牌</h5>
+						</div>
+						<div class="mask"></div>
+						<div class="action">
+							<a href="#">+关注</a>
+							<p>96829人关注该品牌</p>
+							<a href="#">进入该品牌></a>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<img src="/PC/pc_project/images/iqubrfgk5_120_120.jpg"/>
+							<h5>"打造时尚女裤品牌"的精神</h5>
+						</div>
+						<div class="mask"></div>
+						<div class="action">
+							<a href="#">+关注</a>
+							<p>96829人关注该品牌</p>
+							<a href="#">进入该品牌></a>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<img src="/PC/pc_project/images/1bk5loha274_120_120.jpg"/>
+							<h5>艺术、时尚、商业气质完美结合</h5>
+						</div>
+						<div class="mask"></div>
+						<div class="action">
+							<a href="#">+关注</a>
+							<p>96829人关注该品牌</p>
+							<a href="#">进入该品牌></a>
+						</div>
+					</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<!--母婴专区-->
+		<div class="proMother">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>母婴专区</h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">花王旗舰</a></li>
+					<li><a href="#">家居出行</a></li>
+					<li><a href="#">童装童鞋</a></li>
+					<li><a href="#">辅食任选</a></li>
+					<li><a href="#">秋冬童装</a></li>
+					<li><a href="#">孕妈塑身</a></li>
+					<li><a href="#">防妊娠纹</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/1bmgujojm44_246_440.jpg"/></a>
+					<ul>
+						<li><a href="#">大牌奶粉</a></li>
+						<li><a href="#">纸尿裤</a></li>
+						<li><a href="#">洗护养眼</a></li>
+						<li><a href="#">营养辅食</a></li>
+						<li><a href="#">孕妈专区</a></li>
+						<li><a href="#">玩具专区</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>辅食N元</h3>
+									<p>最多99选9</p>
+									<img src="/PC/pc_project/images/1bhrmdjlf33_180_144.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>用品N元</h3>
+									<p>最多88选5</p>
+									<img src="/PC/pc_project/images/ixij13tl16_180_144.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>童装精选馆</h3>
+									<p>最多满199减120</p>
+									<img src="/PC/pc_project/images/1bu7ng85890_180_144.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>玩具N元任选</h3>
+									<p>最多99选10</p>
+									<img src="/PC/pc_project/images/ixij1w6k60_180_144.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/2.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/3.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/4.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/iqt7jad642_300_300.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/ie9wevvj80.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/ibwaaevb49.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/ic8p1ibz13.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/iedmyq5196.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/iiq194c491_300_300.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/ibosun6p96.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--美容彩妆-->
+		<div class="proMakeUp">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>美容彩妆</h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">面膜</a></li>
+					<li><a href="#">防晒</a></li>
+					<li><a href="#">口红</a></li>
+					<li><a href="#">洁面</a></li>
+					<li><a href="#">底妆</a></li>
+					<li><a href="#">水乳</a></li>
+					<li><a href="#">卸妆</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/1bpb87ufk59_246_440.jpg"/></a>
+					<ul>
+						<li><a href="#">基础护肤</a></li>
+						<li><a href="#">彩妆香氛</a></li>
+						<li><a href="#">韩国美妆</a></li>
+						<li><a href="#">人气面膜</a></li>
+						<li><a href="#">超值量贩</a></li>
+						<li><a href="#">日本美妆</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>美妆面膜馆</h3>
+									<p>人气面膜大搜罗</p>
+									<img src="/PC/pc_project/images/1bqrqv5ah28_180_144.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>美妆新品专场</h3>
+									<p>尝新党剁手必看</p>
+									<img src="/PC/pc_project/images/1benh3dlt76_180_144.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>美妆热销专场</h3>
+									<p>美妆热点盘点</p>
+									<img src="/PC/pc_project/images/1bpb897ga97_180_144.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>美容仪器官</h3>
+									<p>热门美颜新科技</p>
+									<img src="/PC/pc_project/images/1brvjcbuo3_180_144.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/2.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/3.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/4.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/m1.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/m2.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/m3.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/m4.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/m5.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/m6.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/m7.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--鞋包服饰-->
+		<div class="proColth">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>服装鞋包</h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">MIK</a></li>
+					<li><a href="#">UGG</a></li>
+					<li><a href="#">Burberry</a></li>
+					<li><a href="#">迷人饰品</a></li>
+					<li><a href="#">MO&Co</a></li>
+					<li><a href="#">ochirly</a></li>
+					<li><a href="#">黛安芬</a></li>
+					<li><a href="#">双肩包</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/c1.jpg"></a>
+					<ul>
+						<li><a href="#">大牌女包</a></li>
+						<li><a href="#">品质男包</a></li>
+						<li><a href="#">精致手表</a></li>
+						<li><a href="#">珠宝饰品</a></li>
+						<li><a href="#">潮流女装</a></li>
+						<li><a href="#">经典男装</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>时尚博主教你“型”</h3>
+									<p>亚历山大.王5.0折起</p>
+									<img src="/PC/pc_project/images/c2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>服装分会场</h3>
+									<p>Moncler羽绒服低至4折</p>
+									<img src="/PC/pc_project/images/c3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>美式轻奢品牌专场</h3>
+									<p>新品包装低至499元起</p>
+									<img src="/PC/pc_project/images/c4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>男人也要“千娇百媚”</h3>
+									<p>男士臻品低至3.9折</p>
+									<img src="/PC/pc_project/images/c5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/10.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/11.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/12.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/13.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/c11.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/c22.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/c33.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/c44.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/c55.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/c66.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/c77.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--家居个护-->
+		<div class="proLiveHome">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>家居个护</h2></h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">吕</a></li>
+					<li><a href="#">碧然德</a></li>
+					<li><a href="#">乐而雅</a></li>
+					<li><a href="#">床品</a></li>
+					<li><a href="#">呵护口腔</a></li>
+					<li><a href="#">保温杯</a></li>
+					<li><a href="#">卡特</a></li>
+					<li><a href="#">空气净化</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/lh1.jpg"></a>
+					<ul>
+						<li><a href="#">洗发护发</a></li>
+						<li><a href="#">沐浴清洁</a></li>
+						<li><a href="#">口腔护理</a></li>
+						<li><a href="#">厨房餐饮</a></li>
+						<li><a href="#">家装家纺</a></li>
+						<li><a href="#">家庭清洁</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>月末狂欢聚惠</h3>
+									<p>99元任选5件起</p>
+									<img src="/PC/pc_project/images/cl2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>个人洗护任选专场</h3>
+									<p>99元任选5件起</p>
+									<img src="/PC/pc_project/images/cl3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>一屋不扫何以扫天下</h3>
+									<p>满168立减40元起</p>
+									<img src="/PC/pc_project/images/lh4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>唯有爱与下厨不可辜负</h3>
+									<p>碧然德滤水壶低至11元</p>
+									<img src="/PC/pc_project/images/lh5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/l1.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/l2.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/l3.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/l4.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh11.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh12.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh13.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh14.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh15.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh16.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/lh10.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--营养保健-->
+		<div class="proHealth">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>营养保健</h2></h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">Swisse</a></li>
+					<li><a href="#">鱼油</a></li>
+					<li><a href="#">眼药水</a></li>
+					<li><a href="#">越蔓莓</a></li>
+					<li><a href="#">澳佳宝</a></li>
+					<li><a href="#">美容养颜</a></li>
+					<li><a href="#">减肥瘦身</a></li>
+					<li><a href="#">男性保健</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/h1.jpg"></a>
+					<ul>
+						<li><a href="#">清仓管</a></li>
+						<li><a href="#">长辈馆</a></li>
+						<li><a href="#">男性馆</a></li>
+						<li><a href="#">滋补馆</a></li>
+						<li><a href="#">美容馆</a></li>
+						<li><a href="#">瘦身馆</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>Swisse</h3>
+									<p>维生素D低至69元</p>
+									<img src="/PC/pc_project/images/h2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>放心之选，汤臣倍健</h3>
+									<p>蛋白粉买1赠2</p>
+									<img src="/PC/pc_project/images/h3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>为天然而生，养生堂</h3>
+									<p>维生素礼盒低至6折</p>
+									<img src="/PC/pc_project/images/h4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>考拉全球好物</h3>
+									<p>参天眼药水香港直邮</p>
+									<img src="/PC/pc_project/images/h5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/h11.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/h12.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/h13.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/h14.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh1.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh2.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh3.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh4.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh5.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh6.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/hh7.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--海外直邮-->
+		<div class="proSeaOut">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>海外直邮</h2></h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">飞利浦</a></li>
+					<li><a href="#">DW</a></li>
+					<li><a href="#">CITIZEN</a></li>
+					<li><a href="#">beats</a></li>
+					<li><a href="#">潘多拉</a></li>
+					<li><a href="#">雅培</a></li>
+					<li><a href="#">戴森</a></li>
+					<li><a href="#">音频</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/S1.jpg"></a>
+					<ul>
+						<li><a href="#">母婴专区</a></li>
+						<li><a href="#">电子生活</a></li>
+						<li><a href="#">日用家居 </a></li>
+						<li><a href="#">营养保健</a></li>
+						<li><a href="#">大牌手表</a></li>
+						<li><a href="#">潘多拉专场</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>澳洲最大超市入驻考拉</h3>
+									<p>各品类商品澳洲本土价格</p>
+									<img src="/PC/pc_project/images/S2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>光动能开启新世界</h3>
+									<p>西铁城人气款上新</p>
+									<img src="/PC/pc_project/images/S3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>这个时代听你的</h3>
+									<p>爆款耳机促销季</p>
+									<img src="/PC/pc_project/images/S4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>闪耀笑容从齿开始</h3>
+									<p>飞利浦电动牙刷超低价格</p>
+									<img src="/PC/pc_project/images/h5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/S11.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/S12.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/S13.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/S14.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO1.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO2.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO3.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO4.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO5.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO6.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/SO7.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--数码家电-->
+		<div class="proElec">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>数码家电</h2></h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">iphone</a></li>
+					<li><a href="#">钢茗</a></li>
+					<li><a href="#">空气净化</a></li>
+					<li><a href="#">电动牙刷</a></li>
+					<li><a href="#">耳机</a></li>
+					<li><a href="#">音响</a></li>
+					<li><a href="#">剃须刀</a></li>
+					<li><a href="#">原汁机</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/E1.jpg"></a>
+					<ul>
+						<li><a href="#">个护家电</a></li>
+						<li><a href="#">生活电器</a></li>
+						<li><a href="#">厨房电器 </a></li>
+						<li><a href="#">3C数码</a></li>
+						<li><a href="#">办公学习</a></li>
+						<li><a href="#">影音娱乐</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>秋冬家电大焕新</h3>
+									<p>霍尼韦尔空气净化器仅699</p>
+									<img src="/PC/pc_project/images/E2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>数码NEW火榜</h3>
+									<p>第一时间用上潮流款</p>
+									<img src="/PC/pc_project/images/E3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>数码家电热销榜</h3>
+									<p>负离子吹风机低至199元</p>
+									<img src="/PC/pc_project/images/E4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>宝贝，快关注我</h3>
+									<p>数码家电上新榜单</p>
+									<img src="/PC/pc_project/images/E5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/E11.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/E12.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/E13.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/E14.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE1.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE2.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE3.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE4.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE5.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE6.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/EE7.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--环球美食-->
+		<div class="proFood">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>环球美食</h2></h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">牛奶</a></li>
+					<li><a href="#">饮料</a></li>
+					<li><a href="#">泡面</a></li>
+					<li><a href="#">月饼</a></li>
+					<li><a href="#">麦片</a></li>
+					<li><a href="#">坚果</a></li>
+					<li><a href="#">咖啡</a></li>
+					<li><a href="#">零食</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/F1.jpg"></a>
+					<ul>
+						<li><a href="#">饮料</a></li>
+						<li><a href="#">咖啡冲饮</a></li>
+						<li><a href="#">果干坚果 </a></li>
+						<li><a href="#">饼干糕点</a></li>
+						<li><a href="#">休闲零食</a></li>
+						<li><a href="#">粮油副食</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>优质乳品保障家人健康</h3>
+									<p>德运69元/袋</p>
+									<img src="/PC/pc_project/images/F2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>解困好帮手</h3>
+									<p>咖啡低至3.5元起</p>
+									<img src="/PC/pc_project/images/F3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>清凉饮品</h3>
+									<p>巴黎水低至119元/箱</p>
+									<img src="/PC/pc_project/images/F4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>人气酒饮</h3>
+									<p>低至49元起</p>
+									<img src="/PC/pc_project/images/F5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/F11.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/F12.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/F13.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/F14.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF1.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF2.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF3.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF4.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF5.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF6.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/FF7.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--户外运动-->
+		<div class="proRunOut">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>户外运动</h2></h2></li>
+					<li>热搜词:</li>
+					<li><a href="#">阿迪达斯</a></li>
+					<li><a href="#">耐克</a></li>
+					<li><a href="#">斯凯奇</a></li>
+					<li><a href="#">亚瑟士</a></li>
+					<li><a href="#">户外防晒</a></li>
+					<li><a href="#">土拨鼠</a></li>
+					<li><a href="#">智能穿戴</a></li>
+				</ul>
+				<p><a href="#">更多好货></a></p>
+			</div>
+			<div class="proMotherMiddle">
+				<aside>
+					<a href="#"><img src="/PC/pc_project/images/R1.jpg"></a>
+					<ul>
+						<li><a href="#">男运动鞋</a></li>
+						<li><a href="#">女运动鞋</a></li>
+						<li><a href="#">运动服饰 </a></li>
+						<li><a href="#">速干T恤</a></li>
+						<li><a href="#">健身服饰</a></li>
+						<li><a href="#">户外背包</a></li>
+					</ul>
+				</aside>
+				<section>
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#">
+									<h3>斯凯奇秋冬新品上市</h3>
+									<p>热门鞋款低至5.7折</p>
+									<img src="/PC/pc_project/images/R2.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>潮流运动季焕新</h3>
+									<p>阿迪耐克新品6折起</p>
+									<img src="/PC/pc_project/images/R3.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>秋日出游季</h3>
+									<p>防晒装备低至39元起</p>
+									<img src="/PC/pc_project/images/R4.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<h3>汽车用品养护专场</h3>
+									<p>机油低至46.9元</p>
+									<img src="/PC/pc_project/images/R5.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="aside">
+						<h3>最新热卖</h3>
+						<div class="CArousel">
+							<ul class="first">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/R11.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/R12.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/R13.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/R14.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+							<ul class="second">
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/itckpdix47_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥228</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bjh7t8lr28_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥238</span><span>￥398</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/onlinei8uzoezb10250.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">medela&nbsp;美德乐<br />Bravado哺乐多哺乳</a></p>
+											<p><span>￥99</span><span>￥298</span></p>
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><a href="#"><img src="/PC/pc_project/images/1bgskhikm48_800_800.jpg"/></a></dt>
+										<dd>
+											<p><a href="#">【品牌直采】<br />Culturelle&nbsp;婴</a></p>
+											<p><span>￥2238</span><span>￥3398</span></p>
+										</dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+						<div class="circle"></div>
+					</div>
+				</section>
+			</div>
+			<div class="proMotherBottom">
+				<ul>
+					<li>热卖品牌：</li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR1.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR2.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR3.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR4.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR5.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR6.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+					<li><a href="#"><img src="/PC/pc_project/images/RR7.jpg"/><i class="iconfont icon-aixin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--猜你喜欢-->
+		<div class="proGuss">
+			<div class="proMotherTop">
+				<ul>
+					<li><h2>猜你喜欢</h2></h2></li>
+					<li>根据你的浏览记录推荐商品</li>
+				</ul>
+			</div>
+			<div class="contain">
+				<dl>
+					<dt><a href="#"><img src="/PC/pc_project/images/G1.jpg"/></a></dt>
+					<dd>
+						<p><a href="#">JAYJUN水光樱花童颜焕新生焕白面膜&nbsp;三部<br />曲&nbsp;25毫升/片&nbsp;10片/盒</a></p>
+						<div>
+							<p><span>￥109</span><span>￥248</span></p>
+							<p><a href="#">27990人评价</a></p>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="/PC/pc_project/images/G2.jpg"/></a></dt>
+					<dd>
+						<p><a href="#">JAYJUN水光樱花童颜焕新生焕白面膜&nbsp;三部<br />曲&nbsp;25毫升/片&nbsp;10片/盒</a></p>
+						<div>
+							<p><span>￥109</span><span>￥248</span></p>
+							<p><a href="#">27990人评价</a></p>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="/PC/pc_project/images/G3.jpg"/></a></dt>
+					<dd>
+						<p><a href="#">JAYJUN水光樱花童颜焕新生焕白面膜&nbsp;三部<br />曲&nbsp;25毫升/片&nbsp;10片/盒</a></p>
+						<div>
+							<p><span>￥109</span><span>￥248</span></p>
+							<p><a href="#">27990人评价</a></p>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="/PC/pc_project/images/G4.jpg"/></a></dt>
+					<dd>
+						<p><a href="#">JAYJUN水光樱花童颜焕新生焕白面膜&nbsp;三部<br />曲&nbsp;25毫升/片&nbsp;10片/盒</a></p>
+						<div>
+							<p><span>￥109</span><span>￥248</span></p>
+							<p><a href="#">27990人评价</a></p>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			
+		</div>
+		
+	</body>
+</html>

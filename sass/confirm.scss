@@ -1,0 +1,162 @@
+.boxWrap{
+    width:1094px;
+    margin:0 auto;
+    .confirmAdress{
+        margin-top:10px;
+        height: 477px;
+        width:1094px;
+        h4{
+            height: 34px;
+            border-bottom: 1px solid #E0E0E0;
+            line-height: 34px;
+            font-size:16px;
+        }
+        .adress{
+            display: block;
+            height: 444px;
+            p{
+                font-size:12px;
+                margin-top:10px;
+                height: 36px;
+                width:1094px;
+                span{
+                    display: inline-block;
+                    float:lft;
+                }
+                span:nth-of-type(1){
+                    width: 80px;
+                    em{
+                        font-style: normal;
+                        color:#D22046;
+                    }
+                }
+                span:nth-of-type(2){
+                    margin-left:20px;
+                    input{
+                        height: 36px;
+                        width:460px;
+                    }
+                }
+            }
+            p:nth-of-type(2){
+                height:66px;
+            }
+            p:nth-of-type(7){
+               button{
+                   margin-top:5px;
+                   width: 130px;
+                   height: 40px;
+                   background: red;
+                   color:white;
+                   margin-left:102px;
+                   line-height: 40px;
+                   text-align: center;
+                   outline: none;
+                   border: none;
+               } 
+            }
+        }
+        .submitAdress{
+            display: none;
+            margin-top:5px;
+            height: 220px;
+            width:344px;
+            border:2px solid firebrick;
+            font-size:12px;
+            .boxAdress:hover{
+                .show{
+                    display: block;
+                   a{
+                       text-decoration: underline;
+                   }
+                }
+            }
+            .boxAdress{
+                height: 220px;
+                width:344px;
+                p:nth-of-type(1){
+                    width: 300px;
+                    height: 39px;
+                    margin-left:22px;
+                    line-height: 39px;
+                    border-bottom:1px solid #E0E0E0;
+                    a{
+                        height: 39px;
+                        line-height: 39px;
+                        float:left;
+                        color:#333;
+                        display: inline-block;
+                        
+                    }
+                    a:nth-of-type(2){
+                        float:right;
+                    }
+                }
+                p:nth-of-type(2){
+                   margin-top:5px;
+                   margin-left:22px;
+                   height:17px;
+                   a{
+                       color:#333;
+                       height:17px;
+                       line-height: 17px;
+                       display: inline-block;
+                       margin-left:10px;
+                   }
+                   a:nth-of-type(1){
+                       margin-left:0px;
+                   }
+                }
+               p:nth-of-type(3){
+                   margin-top:5px;
+                   margin-left:22px;
+                   height:14px;
+                   a{
+                       color:#333;
+                       height:14px;
+                       line-height: 14px;
+                       display: inline-block;
+                   }
+               } 
+               p:nth-of-type(4){
+                   margin-top:5px;
+                   margin-left:22px;
+                   height:14px;
+                   width:69px;
+                   a{
+                       color:#333;
+                       height:14px;
+                       line-height: 14px;
+                       display: inline-block;
+                   }
+               }
+               p:nth-of-type(6){
+                   display: none;
+                   margin-top:50px;
+                   margin-left:22px;
+                   height:14px;
+                   span{
+                       height:14px;
+                       display: inline-block;
+                       a{
+                       color:#333;
+                       height:14px;
+                       line-height: 14px;
+                       display: inline-block;
+                    }
+                       a:nth-of-type(1){
+                           margin-left:0px;
+                       }
+                   }
+                   span:nth-of-type(2){
+                       margin-left:5px;
+                   }
+               } 
+            }
+        }
+    }
+    .confirmPro{
+        width:1094px;
+        background: salmon;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "pc_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxq1048504557/KoalaChoose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxq1048504557/KoalaChoose/issues"
+  },
+  "homepage": "https://github.com/lxq1048504557/KoalaChoose#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

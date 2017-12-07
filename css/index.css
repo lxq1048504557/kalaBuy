@@ -1,0 +1,2676 @@
+.banner {
+  position: relative;
+  height: 400px;
+  border-top: 2px solid #333333;
+  width: 100%; }
+
+.banner .bannerList {
+  position: absolute;
+  top: 0;
+  left: 93px;
+  height: 400px;
+  width: 160px;
+  background: #3a3434;
+  z-index: 2;
+  opacity: 0.8; }
+
+.banner .bannerList li {
+  font-size: 12px;
+  text-align: center;
+  height: 36px;
+  width: 140px;
+  margin: 0 auto;
+  line-height: 36px;
+  border-bottom: 1px solid #443e3e; }
+
+.banner .bannerList li a {
+  color: #ffffff; }
+
+.banner .bannerList li a i {
+  color: #827f7f !important;
+  font-size: 12px !important; }
+
+.banner .bannerList li:nth-of-type(11) {
+  border: none; }
+
+.banner .bannerList li a i:nth-of-type(2) {
+  margin-left: 5px; }
+
+.banner .bannerList li a i:nth-of-type(1) {
+  margin-right: 5px; }
+
+.alertBanner {
+  height: 45px; }
+
+.alertBanner .container {
+  height: 45px;
+  width: 1094px;
+  margin: 0px auto; }
+  .alertBanner .container ul {
+    float: left;
+    height: 45px;
+    width: 505px; }
+    .alertBanner .container ul li {
+      height: 45px;
+      line-height: 45px;
+      float: left;
+      margin-right: 38px;
+      font-size: 12px; }
+      .alertBanner .container ul li a {
+        color: #999999; }
+        .alertBanner .container ul li a i {
+          font-size: 20px !important;
+          color: #999999 !important;
+          margin-right: 5px; }
+  .alertBanner .container p {
+    float: right;
+    height: 45px;
+    width: 255px;
+    font-size: 12px;
+    line-height: 45px; }
+    .alertBanner .container p i {
+      font-size: 18px !important;
+      color: #e01e35;
+      margin-right: 5px; }
+    .alertBanner .container p a {
+      color: #e01e35; }
+
+.newUser {
+  height: 240px;
+  background: #f6f6f6;
+  overflow: hidden; }
+  .newUser ul {
+    height: 220px;
+    width: 1094px;
+    margin: 0px auto;
+    margin-top: 20px; }
+    .newUser ul li {
+      height: 220px;
+      float: left;
+      margin-left: 11.3px; }
+    .newUser ul li:nth-of-type(1) {
+      margin-left: 0; }
+
+.dailyLimit {
+  height: 462px;
+  background: #f6f6f6; }
+  .dailyLimit .dailyLimitTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto;
+    border-bottom: 2px solid #333333; }
+    .dailyLimit .dailyLimitTop ul {
+      height: 80px;
+      float: left; }
+      .dailyLimit .dailyLimitTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .dailyLimit .dailyLimitTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .dailyLimit .dailyLimitTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .dailyLimit .dailyLimitTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .dailyLimit .dailyLimitTop p a {
+        color: #333333; }
+        .dailyLimit .dailyLimitTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+  .dailyLimit .dailyLimitBottom {
+    height: 380px;
+    width: 1094px;
+    margin: 0 auto; }
+    .dailyLimit .dailyLimitBottom selection {
+      float: left;
+      height: 380px;
+      width: 870px;
+      background: white; }
+      .dailyLimit .dailyLimitBottom selection dl {
+        float: left;
+        height: 190px;
+        border-bottom: 1px solid #eaeaea;
+        width: 434px; }
+        .dailyLimit .dailyLimitBottom selection dl dt:hover img {
+          opacity: 0.5; }
+        .dailyLimit .dailyLimitBottom selection dl dt {
+          float: left;
+          width: 204px;
+          height: 190px; }
+          .dailyLimit .dailyLimitBottom selection dl dt img {
+            height: 188px;
+            width: 188px; }
+        .dailyLimit .dailyLimitBottom selection dl dd {
+          float: right;
+          width: 230px;
+          height: 190px; }
+          .dailyLimit .dailyLimitBottom selection dl dd h4 {
+            margin-top: 15px;
+            font-size: 15px; }
+            .dailyLimit .dailyLimitBottom selection dl dd h4 a {
+              color: #333333; }
+          .dailyLimit .dailyLimitBottom selection dl dd > p:nth-of-type(1) {
+            font-size: 12px;
+            margin-top: 10px; }
+            .dailyLimit .dailyLimitBottom selection dl dd > p:nth-of-type(1) a {
+              color: #666666; }
+          .dailyLimit .dailyLimitBottom selection dl dd > p:nth-of-type(2) {
+            font-size: 12px;
+            margin-top: 25px; }
+            .dailyLimit .dailyLimitBottom selection dl dd > p:nth-of-type(2) span:nth-of-type(1) {
+              font-size: 17px;
+              color: #e11935;
+              margin-right: 5px; }
+            .dailyLimit .dailyLimitBottom selection dl dd > p:nth-of-type(2) span:nth-of-type(2) {
+              text-decoration: line-through;
+              color: #999999; }
+          .dailyLimit .dailyLimitBottom selection dl dd div {
+            margin-top: 5px;
+            height: 30px;
+            width: 230px;
+            font-size: 12px;
+            margin-top: 10px; }
+            .dailyLimit .dailyLimitBottom selection dl dd div p:nth-of-type(1) {
+              float: left;
+              height: 20px;
+              width: 105px;
+              border: 1px solid #ffd2c5;
+              border-radius: 6px;
+              margin-top: 7px; }
+              .dailyLimit .dailyLimitBottom selection dl dd div p:nth-of-type(1) span:nth-of-type(1) {
+                float: left;
+                display: inline-block;
+                height: 20px;
+                width: 25px;
+                border-bottom-left-radius: 6px;
+                background: #ffd2c5; }
+              .dailyLimit .dailyLimitBottom selection dl dd div p:nth-of-type(1) span:nth-of-type(2) {
+                float: right;
+                display: inline-block;
+                height: 20px;
+                width: 80px;
+                text-align: center;
+                border-bottom-left-radius: 6px; }
+            .dailyLimit .dailyLimitBottom selection dl dd div p:nth-of-type(2) {
+              line-height: 30px;
+              text-align: center;
+              float: right;
+              height: 30px;
+              width: 80px;
+              background: #de2634; }
+              .dailyLimit .dailyLimitBottom selection dl dd div p:nth-of-type(2) a {
+                display: inline-block;
+                height: 30px;
+                width: 80px;
+                color: #FFFFFF; }
+      .dailyLimit .dailyLimitBottom selection dl:nth-of-type(1), .dailyLimit .dailyLimitBottom selection dl:nth-of-type(2) {
+        border-right: 1px solid #eaeaea; }
+    .dailyLimit .dailyLimitBottom aside {
+      float: left;
+      height: 380px;
+      width: 224px;
+      background: #efe4dd; }
+
+.dailyNew {
+  height: 542px;
+  background: #f6f6f6; }
+  .dailyNew .dailyNewTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .dailyNew .dailyNewTop ul {
+      height: 80px;
+      float: left; }
+      .dailyNew .dailyNewTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .dailyNew .dailyNewTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .dailyNew .dailyNewTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .dailyNew .dailyNewTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .dailyNew .dailyNewTop p a {
+        color: #333333; }
+        .dailyNew .dailyNewTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+  .dailyNew .dailyNewBottom {
+    height: 457px;
+    width: 1094px;
+    margin: 0 auto; }
+    .dailyNew .dailyNewBottom dl {
+      border-right: 1px solid #f0f0f0;
+      border-bottom: 1px solid #f0f0f0;
+      float: left;
+      height: 227px;
+      width: 181px;
+      background: #ffffff;
+      text-align: center;
+      overflow: hidden; }
+      .dailyNew .dailyNewBottom dl dt:hover img {
+        opacity: 0.5; }
+      .dailyNew .dailyNewBottom dl dt {
+        height: 157px;
+        width: 181px;
+        margin: 0px auto; }
+      .dailyNew .dailyNewBottom dl dd {
+        width: 181px;
+        padding-top: 10px; }
+        .dailyNew .dailyNewBottom dl dd h5 {
+          font-weight: normal;
+          font-size: 12px; }
+          .dailyNew .dailyNewBottom dl dd h5 a {
+            color: #333333; }
+        .dailyNew .dailyNewBottom dl dd p {
+          font-size: 12px;
+          margin-top: 10px; }
+          .dailyNew .dailyNewBottom dl dd p a {
+            color: #e31436; }
+            .dailyNew .dailyNewBottom dl dd p a span {
+              color: #e31436;
+              line-height: 12px;
+              margin-left: 5px;
+              font-weight: bolder; }
+            .dailyNew .dailyNewBottom dl dd p a span:nth-of-type(2) {
+              font-weight: normal;
+              color: #999999;
+              text-decoration: line-through; }
+    .dailyNew .dailyNewBottom dl:nth-of-type(1) {
+      border-right: 1px solid #f0f0f0;
+      border-bottom: 1px solid #f0f0f0;
+      float: left;
+      height: 227px;
+      width: 181px;
+      text-align: center;
+      overflow: hidden; }
+      .dailyNew .dailyNewBottom dl:nth-of-type(1) dt {
+        height: 90px;
+        width: 181px;
+        margin: 0px auto;
+        margin-top: 30px; }
+      .dailyNew .dailyNewBottom dl:nth-of-type(1) dd {
+        height: 69px;
+        width: 181px;
+        padding-top: 38px; }
+        .dailyNew .dailyNewBottom dl:nth-of-type(1) dd h5 {
+          font-weight: normal;
+          font-size: 12px; }
+          .dailyNew .dailyNewBottom dl:nth-of-type(1) dd h5 a {
+            color: #333333; }
+        .dailyNew .dailyNewBottom dl:nth-of-type(1) dd p {
+          font-size: 14px;
+          margin-top: 10px; }
+          .dailyNew .dailyNewBottom dl:nth-of-type(1) dd p a {
+            color: #e31436; }
+            .dailyNew .dailyNewBottom dl:nth-of-type(1) dd p a span {
+              display: inline-block;
+              height: 13px;
+              width: 13px;
+              border-radius: 50%;
+              background: #e31436;
+              color: white;
+              line-height: 13px;
+              margin-left: 5px; }
+    .dailyNew .dailyNewBottom dl:nth-of-type(2) dt {
+      height: 227px;
+      width: 181px;
+      margin-top: 0; }
+      .dailyNew .dailyNewBottom dl:nth-of-type(2) dt a {
+        display: inline-block;
+        height: 227px; }
+        .dailyNew .dailyNewBottom dl:nth-of-type(2) dt a img {
+          height: 227px;
+          width: 181px; }
+    .dailyNew .dailyNewBottom dl:nth-of-type(7), .dailyNew .dailyNewBottom dl:nth-of-type(8), .dailyNew .dailyNewBottom dl:nth-of-type(9), .dailyNew .dailyNewBottom dl:nth-of-type(10), .dailyNew .dailyNewBottom dl:nth-of-type(11), .dailyNew .dailyNewBottom dl:nth-of-type(12) {
+      border-bottom: none; }
+
+.popbrands {
+  height: 355px;
+  background: #F6F6F6; }
+  .popbrands .popbrandsTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .popbrands .popbrandsTop ul {
+      height: 80px;
+      float: left; }
+      .popbrands .popbrandsTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .popbrands .popbrandsTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .popbrands .popbrandsTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .popbrands .popbrandsTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .popbrands .popbrandsTop p a {
+        color: #333333; }
+        .popbrands .popbrandsTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+  .popbrands .popbrandsBottom {
+    height: 275px;
+    width: 1094px;
+    margin: 0 auto; }
+    .popbrands .popbrandsBottom aside {
+      float: left;
+      height: 275px;
+      width: 181px; }
+      .popbrands .popbrandsBottom aside ul {
+        height: 275px;
+        width: 181px; }
+        .popbrands .popbrandsBottom aside ul p:nth-of-type(1) {
+          height: 181px;
+          width: 181px; }
+          .popbrands .popbrandsBottom aside ul p:nth-of-type(1) a {
+            display: inline-block;
+            height: 181px;
+            width: 181px; }
+        .popbrands .popbrandsBottom aside ul p:nth-of-type(2) {
+          background: #333333;
+          padding-top: 25px;
+          height: 69px;
+          width: 181px;
+          text-align: center;
+          font-size: 12px; }
+          .popbrands .popbrandsBottom aside ul p:nth-of-type(2) a {
+            color: #ffffff; }
+            .popbrands .popbrandsBottom aside ul p:nth-of-type(2) a span {
+              display: inline-block;
+              font-weight: bolder;
+              font-size: 13px;
+              margin-bottom: 10px; }
+    .popbrands .popbrandsBottom section {
+      float: left;
+      height: 275px;
+      width: 913px; }
+      .popbrands .popbrandsBottom section ul {
+        height: 275px;
+        width: 913px; }
+        .popbrands .popbrandsBottom section ul li:hover .mask, .popbrands .popbrandsBottom section ul li:hover .action {
+          display: block; }
+        .popbrands .popbrandsBottom section ul li {
+          float: left;
+          height: 136px;
+          width: 181px;
+          background: #ffffff;
+          position: relative;
+          border-bottom: 1px solid #f0f0f0;
+          border-right: 1px solid #f0f0f0; }
+          .popbrands .popbrandsBottom section ul li .info {
+            display: block;
+            z-index: 1; }
+            .popbrands .popbrandsBottom section ul li .info img {
+              display: block;
+              margin: 12px auto 0;
+              height: 90px; }
+            .popbrands .popbrandsBottom section ul li .info h5 {
+              text-align: center;
+              font-weight: normal;
+              margin-top: 10px;
+              font-size: 12px; }
+              .popbrands .popbrandsBottom section ul li .info h5 a {
+                color: #333333; }
+          .popbrands .popbrandsBottom section ul li .mask {
+            height: 136px;
+            width: 186px;
+            position: absolute;
+            display: none;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            background: #333333;
+            opacity: 0.5; }
+          .popbrands .popbrandsBottom section ul li .action {
+            height: 136px;
+            width: 186px;
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            font-size: 12px; }
+            .popbrands .popbrandsBottom section ul li .action a:nth-of-type(1) {
+              display: inline-block;
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              width: 58px;
+              height: 16px;
+              line-height: 16px;
+              color: #fff;
+              border: 1px solid #fff;
+              text-decoration: none;
+              border-radius: 6px;
+              text-align: center; }
+            .popbrands .popbrandsBottom section ul li .action p {
+              margin: 45px auto 6px;
+              text-align: center;
+              color: #fff; }
+            .popbrands .popbrandsBottom section ul li .action a:nth-of-type(2) {
+              display: block;
+              margin: 25px auto;
+              width: 86px;
+              height: 20px;
+              line-height: 20px;
+              color: #fff;
+              background-color: #e31436;
+              text-decoration: none;
+              border-radius: 10px;
+              text-align: center; }
+        .popbrands .popbrandsBottom section ul li:nth-of-type(6), .popbrands .popbrandsBottom section ul li:nth-of-type(7), .popbrands .popbrandsBottom section ul li:nth-of-type(8), .popbrands .popbrandsBottom section ul li:nth-of-type(9), .popbrands .popbrandsBottom section ul li:nth-of-type(10) {
+          border-bottom: none; }
+        .popbrands .popbrandsBottom section ul li:nth-of-type(5), .popbrands .popbrandsBottom section ul li:nth-of-type(10) {
+          border-right: none; }
+
+.proMother {
+  height: 646px;
+  background: #F6F6F6; }
+  .proMother .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proMother .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proMother .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proMother .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proMother .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proMother .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proMother .proMotherTop p a {
+        color: #333333; }
+        .proMother .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proMother .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proMother .proMotherTop ul li a {
+        color: #666666; }
+    .proMother .proMotherTop ul li:nth-of-type(1), .proMother .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proMother .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proMother .proMotherTop ul li:nth-of-type(3) a, .proMother .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proMother .proMotherTop p a {
+      color: #666666; }
+  .proMother .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proMother .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proMother .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proMother .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proMother .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proMother .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proMother .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proMother .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proMother .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proMother .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proMother .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proMother .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proMother .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proMother .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proMother .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proMother .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proMother .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proMother .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proMother .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proMother .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proMother .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proMother .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proMother .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proMother .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proMother .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proMother .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proMother .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proMother .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proMother .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proMother .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proMother .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proMother .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proMother .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proMother .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proMother .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proMother .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proMother .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proMother .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proMother .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proMakeUp {
+  height: 646px;
+  background: #F6F6F6; }
+  .proMakeUp .proMotherTop ul li:nth-of-type(3) a, .proMakeUp .proMotherTop ul li:nth-of-type(5) a, .proMakeUp .proMotherTop ul li:nth-of-type(8) a {
+    color: #e31436; }
+  .proMakeUp .proMotherTop ul li:nth-of-type(7) a {
+    color: #666666 !important; }
+  .proMakeUp .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proMakeUp .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proMakeUp .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proMakeUp .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proMakeUp .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proMakeUp .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proMakeUp .proMotherTop p a {
+        color: #333333; }
+        .proMakeUp .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proMakeUp .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proMakeUp .proMotherTop ul li a {
+        color: #666666; }
+    .proMakeUp .proMotherTop ul li:nth-of-type(1), .proMakeUp .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proMakeUp .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proMakeUp .proMotherTop ul li:nth-of-type(3) a, .proMakeUp .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proMakeUp .proMotherTop p a {
+      color: #666666; }
+  .proMakeUp .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proMakeUp .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proMakeUp .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proMakeUp .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proMakeUp .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proMakeUp .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proMakeUp .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proMakeUp .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proMakeUp .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proMakeUp .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proMakeUp .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proMakeUp .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proMakeUp .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proMakeUp .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proMakeUp .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proMakeUp .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proMakeUp .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proMakeUp .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proMakeUp .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proMakeUp .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proMakeUp .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proMakeUp .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proMakeUp .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proMakeUp .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proMakeUp .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proMakeUp .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proMakeUp .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proMakeUp .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proMakeUp .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proMakeUp .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proMakeUp .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proMakeUp .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proColth {
+  height: 646px;
+  background: #F6F6F6; }
+  .proColth .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proColth .proMotherTop ul li:nth-of-type(4) a, .proColth .proMotherTop ul li:nth-of-type(5) a, .proColth .proMotherTop ul li:nth-of-type(6) a, .proColth .proMotherTop ul li:nth-of-type(7) a, .proColth .proMotherTop ul li:nth-of-type(9) a {
+      color: #e31436; }
+    .proColth .proMotherTop ul li:nth-of-type(10) {
+      background: none; }
+  .proColth .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proColth .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proColth .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proColth .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proColth .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proColth .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proColth .proMotherTop p a {
+        color: #333333; }
+        .proColth .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proColth .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proColth .proMotherTop ul li a {
+        color: #666666; }
+    .proColth .proMotherTop ul li:nth-of-type(1), .proColth .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proColth .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proColth .proMotherTop ul li:nth-of-type(3) a, .proColth .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proColth .proMotherTop p a {
+      color: #666666; }
+  .proColth .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proColth .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proColth .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proColth .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proColth .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proColth .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proColth .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proColth .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proColth .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proColth .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proColth .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proColth .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proColth .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proColth .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proColth .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proColth .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proColth .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proColth .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proColth .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proColth .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proColth .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proColth .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proColth .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proColth .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proColth .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proColth .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proColth .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proColth .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proColth .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proColth .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proColth .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proColth .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proColth .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proColth .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proColth .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proColth .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proColth .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proColth .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proColth .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proLiveHome {
+  height: 646px;
+  background: #F6F6F6; }
+  .proLiveHome .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proLiveHome .proMotherTop ul li:nth-of-type(3) a, .proLiveHome .proMotherTop ul li:nth-of-type(4) a, .proLiveHome .proMotherTop ul li:nth-of-type(5) a, .proLiveHome .proMotherTop ul li:nth-of-type(10) a, .proLiveHome .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proLiveHome .proMotherTop ul li:nth-of-type(10) {
+      background: none; }
+  .proLiveHome .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proLiveHome .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proLiveHome .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proLiveHome .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proLiveHome .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proLiveHome .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proLiveHome .proMotherTop p a {
+        color: #333333; }
+        .proLiveHome .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proLiveHome .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proLiveHome .proMotherTop ul li a {
+        color: #666666; }
+    .proLiveHome .proMotherTop ul li:nth-of-type(1), .proLiveHome .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proLiveHome .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proLiveHome .proMotherTop ul li:nth-of-type(3) a, .proLiveHome .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proLiveHome .proMotherTop p a {
+      color: #666666; }
+  .proLiveHome .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proLiveHome .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proLiveHome .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proLiveHome .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proLiveHome .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proLiveHome .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proLiveHome .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proLiveHome .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proLiveHome .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proLiveHome .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proLiveHome .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proLiveHome .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proLiveHome .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proLiveHome .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proLiveHome .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proLiveHome .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proLiveHome .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proLiveHome .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proLiveHome .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proLiveHome .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proLiveHome .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proLiveHome .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proLiveHome .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proLiveHome .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proLiveHome .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proLiveHome .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proLiveHome .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proLiveHome .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proLiveHome .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proLiveHome .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proLiveHome .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proLiveHome .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proHealth {
+  height: 646px;
+  background: #F6F6F6; }
+  .proHealth .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proHealth .proMotherTop ul li:nth-of-type(3) a, .proHealth .proMotherTop ul li:nth-of-type(5) a, .proHealth .proMotherTop ul li:nth-of-type(7) a, .proHealth .proMotherTop ul li:nth-of-type(8) a {
+      color: #e31436; }
+    .proHealth .proMotherTop ul li:nth-of-type(10) {
+      background: none; }
+  .proHealth .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proHealth .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proHealth .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proHealth .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proHealth .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proHealth .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proHealth .proMotherTop p a {
+        color: #333333; }
+        .proHealth .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proHealth .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proHealth .proMotherTop ul li a {
+        color: #666666; }
+    .proHealth .proMotherTop ul li:nth-of-type(1), .proHealth .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proHealth .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proHealth .proMotherTop ul li:nth-of-type(3) a, .proHealth .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proHealth .proMotherTop p a {
+      color: #666666; }
+  .proHealth .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proHealth .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proHealth .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proHealth .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proHealth .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proHealth .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proHealth .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proHealth .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proHealth .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proHealth .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proHealth .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proHealth .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proHealth .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proHealth .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proHealth .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proHealth .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proHealth .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proHealth .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proHealth .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proHealth .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proHealth .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proHealth .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proHealth .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proHealth .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proHealth .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proHealth .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proHealth .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proHealth .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proHealth .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proHealth .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proHealth .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proHealth .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proHealth .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proHealth .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proHealth .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proHealth .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proHealth .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proHealth .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proHealth .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proSeaOut {
+  height: 646px;
+  background: #F6F6F6; }
+  .proSeaOut .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proSeaOut .proMotherTop ul li:nth-of-type(3) a, .proSeaOut .proMotherTop ul li:nth-of-type(5) a, .proSeaOut .proMotherTop ul li:nth-of-type(4) a, .proSeaOut .proMotherTop ul li:nth-of-type(6) a, .proSeaOut .proMotherTop ul li:nth-of-type(10) a {
+      color: #e31436; }
+    .proSeaOut .proMotherTop ul li:nth-of-type(10) {
+      background: none; }
+  .proSeaOut .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proSeaOut .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proSeaOut .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proSeaOut .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proSeaOut .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proSeaOut .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proSeaOut .proMotherTop p a {
+        color: #333333; }
+        .proSeaOut .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proSeaOut .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proSeaOut .proMotherTop ul li a {
+        color: #666666; }
+    .proSeaOut .proMotherTop ul li:nth-of-type(1), .proSeaOut .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proSeaOut .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proSeaOut .proMotherTop ul li:nth-of-type(3) a, .proSeaOut .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proSeaOut .proMotherTop p a {
+      color: #666666; }
+  .proSeaOut .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proSeaOut .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proSeaOut .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proSeaOut .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proSeaOut .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proSeaOut .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proSeaOut .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proSeaOut .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proSeaOut .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proSeaOut .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proSeaOut .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proSeaOut .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proSeaOut .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proSeaOut .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proSeaOut .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proSeaOut .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proSeaOut .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proSeaOut .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proSeaOut .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proSeaOut .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proSeaOut .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proSeaOut .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proSeaOut .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proSeaOut .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proSeaOut .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proSeaOut .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proSeaOut .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proSeaOut .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proSeaOut .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proSeaOut .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proSeaOut .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proSeaOut .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proElec {
+  height: 646px;
+  background: #F6F6F6; }
+  .proElec .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proElec .proMotherTop ul li:nth-of-type(3) a, .proElec .proMotherTop ul li:nth-of-type(5) a, .proElec .proMotherTop ul li:nth-of-type(4) a {
+      color: #e31436; }
+    .proElec .proMotherTop ul li:nth-of-type(10) {
+      background: none; }
+    .proElec .proMotherTop ul li:nth-of-type(7) a {
+      color: #666666 !important; }
+  .proElec .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proElec .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proElec .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proElec .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proElec .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proElec .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proElec .proMotherTop p a {
+        color: #333333; }
+        .proElec .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proElec .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proElec .proMotherTop ul li a {
+        color: #666666; }
+    .proElec .proMotherTop ul li:nth-of-type(1), .proElec .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proElec .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proElec .proMotherTop ul li:nth-of-type(3) a, .proElec .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proElec .proMotherTop p a {
+      color: #666666; }
+  .proElec .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proElec .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proElec .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proElec .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proElec .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proElec .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proElec .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proElec .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proElec .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proElec .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proElec .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proElec .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proElec .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proElec .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proElec .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proElec .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proElec .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proElec .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proElec .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proElec .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proElec .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proElec .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proElec .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proElec .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proElec .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proElec .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proElec .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proElec .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proElec .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proElec .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proElec .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proElec .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proElec .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proElec .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proElec .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proElec .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proElec .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proElec .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proElec .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proFood {
+  height: 646px;
+  background: #F6F6F6; }
+  .proFood .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proFood .proMotherTop ul li:nth-of-type(3) a, .proFood .proMotherTop ul li:nth-of-type(5) a, .proFood .proMotherTop ul li:nth-of-type(6) a {
+      color: #e31436; }
+    .proFood .proMotherTop ul li:nth-of-type(10) {
+      background: none; }
+    .proFood .proMotherTop ul li:nth-of-type(7) a {
+      color: #666666 !important; }
+  .proFood .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proFood .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proFood .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proFood .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proFood .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proFood .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proFood .proMotherTop p a {
+        color: #333333; }
+        .proFood .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proFood .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proFood .proMotherTop ul li a {
+        color: #666666; }
+    .proFood .proMotherTop ul li:nth-of-type(1), .proFood .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proFood .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proFood .proMotherTop ul li:nth-of-type(3) a, .proFood .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proFood .proMotherTop p a {
+      color: #666666; }
+  .proFood .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proFood .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proFood .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proFood .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proFood .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proFood .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proFood .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proFood .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proFood .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proFood .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proFood .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proFood .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proFood .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proFood .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proFood .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proFood .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proFood .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proFood .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proFood .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proFood .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proFood .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proFood .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proFood .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proFood .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proFood .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proFood .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proFood .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proFood .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proFood .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proFood .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proFood .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proFood .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proFood .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proFood .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proFood .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proFood .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proFood .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proFood .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proFood .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proRunOut {
+  height: 646px;
+  background: #F6F6F6; }
+  .proRunOut .proMotherTop {
+    border-bottom: 2px solid #333; }
+    .proRunOut .proMotherTop ul li:nth-of-type(3) a, .proRunOut .proMotherTop ul li:nth-of-type(5) a, .proRunOut .proMotherTop ul li:nth-of-type(6) a {
+      color: #e31436; }
+    .proRunOut .proMotherTop ul li:nth-of-type(9) {
+      background: none; }
+    .proRunOut .proMotherTop ul li:nth-of-type(7) a {
+      color: #666666 !important; }
+  .proRunOut .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proRunOut .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proRunOut .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proRunOut .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proRunOut .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proRunOut .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proRunOut .proMotherTop p a {
+        color: #333333; }
+        .proRunOut .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proRunOut .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proRunOut .proMotherTop ul li a {
+        color: #666666; }
+    .proRunOut .proMotherTop ul li:nth-of-type(1), .proRunOut .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proRunOut .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proRunOut .proMotherTop ul li:nth-of-type(3) a, .proRunOut .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proRunOut .proMotherTop p a {
+      color: #666666; }
+  .proRunOut .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proRunOut .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proRunOut .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proRunOut .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proRunOut .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proRunOut .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proRunOut .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proRunOut .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proRunOut .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proRunOut .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proRunOut .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proRunOut .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proRunOut .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proRunOut .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proRunOut .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proRunOut .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proRunOut .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proRunOut .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proRunOut .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proRunOut .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proRunOut .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proRunOut .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proRunOut .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proRunOut .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proRunOut .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proRunOut .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proRunOut .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proRunOut .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proRunOut .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proRunOut .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proRunOut .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proRunOut .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proRunOut .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+
+.proGuss {
+  height: 432px !important;
+  height: 646px;
+  background: #F6F6F6; }
+  .proGuss .proMotherTop {
+    height: 80px;
+    width: 1094px;
+    margin: 0 auto; }
+    .proGuss .proMotherTop ul {
+      height: 80px;
+      float: left; }
+      .proGuss .proMotherTop ul li {
+        height: 80px;
+        float: left;
+        font-size: 12px;
+        line-height: 80px; }
+      .proGuss .proMotherTop ul li:nth-of-type(1) {
+        font-size: 18px; }
+      .proGuss .proMotherTop ul li:nth-of-type(2) {
+        color: #999999;
+        margin-left: 10px; }
+    .proGuss .proMotherTop p {
+      float: right;
+      height: 80px;
+      width: 108px;
+      font-size: 12px;
+      line-height: 80px; }
+      .proGuss .proMotherTop p a {
+        color: #333333; }
+        .proGuss .proMotherTop p a i {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 14px !important;
+          font-weight: bold; }
+    .proGuss .proMotherTop ul li {
+      padding: 0 5px;
+      margin: 0 6px;
+      background: url(../images/litter.jpg) no-repeat center right; }
+      .proGuss .proMotherTop ul li a {
+        color: #666666; }
+    .proGuss .proMotherTop ul li:nth-of-type(1), .proGuss .proMotherTop ul li:nth-of-type(2) {
+      background: none; }
+    .proGuss .proMotherTop ul li:hover a {
+      text-decoration: underline; }
+    .proGuss .proMotherTop ul li:nth-of-type(3) a, .proGuss .proMotherTop ul li:nth-of-type(7) a {
+      color: #e31436; }
+    .proGuss .proMotherTop p a {
+      color: #666666; }
+  .proGuss .proMotherMiddle {
+    height: 440px;
+    margin: 0 auto;
+    width: 1094px;
+    background: red; }
+    .proGuss .proMotherMiddle aside:nth-of-type(1) {
+      float: left;
+      height: 440px;
+      width: 246px;
+      position: relative; }
+      .proGuss .proMotherMiddle aside:nth-of-type(1) ul {
+        height: 136px;
+        width: 220px;
+        position: absolute;
+        left: 26px;
+        top: 24px; }
+        .proGuss .proMotherMiddle aside:nth-of-type(1) ul li:hover {
+          background: gainsboro; }
+          .proGuss .proMotherMiddle aside:nth-of-type(1) ul li:hover a {
+            color: #FF0000; }
+        .proGuss .proMotherMiddle aside:nth-of-type(1) ul li {
+          float: left;
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+          background: #fff;
+          font-size: 12px;
+          line-height: 58px;
+          text-align: center;
+          margin: 0 10px 10px 0; }
+          .proGuss .proMotherMiddle aside:nth-of-type(1) ul li a {
+            color: #333333; }
+    .proGuss .proMotherMiddle section {
+      float: left;
+      height: 440px;
+      width: 848px;
+      background: salmon; }
+      .proGuss .proMotherMiddle section .content {
+        float: left;
+        height: 440px;
+        width: 600px; }
+        .proGuss .proMotherMiddle section .content ul {
+          height: 440px;
+          width: 600px; }
+          .proGuss .proMotherMiddle section .content ul li:hover {
+            opacity: 0.5; }
+          .proGuss .proMotherMiddle section .content ul li {
+            border: 1px solid #eaeaea;
+            float: left;
+            width: 298px;
+            height: 219px;
+            text-align: center;
+            background: red;
+            background: #ffffff; }
+            .proGuss .proMotherMiddle section .content ul li > a {
+              display: inline-block;
+              width: 299px;
+              height: 220px;
+              overflow: hidden; }
+              .proGuss .proMotherMiddle section .content ul li > a h3 {
+                margin-top: 26px;
+                font-weight: normal;
+                color: #333333; }
+              .proGuss .proMotherMiddle section .content ul li > a p {
+                color: #666666;
+                font-size: 12px;
+                margin-top: 5px; }
+              .proGuss .proMotherMiddle section .content ul li > a img {
+                margin-top: 3px; }
+      .proGuss .proMotherMiddle section .aside {
+        float: left;
+        height: 440px;
+        width: 248px;
+        background: #fff; }
+        .proGuss .proMotherMiddle section .aside h3 {
+          margin-top: 26px;
+          margin-left: 30px;
+          font-weight: normal;
+          color: #333333; }
+        .proGuss .proMotherMiddle section .aside .CArousel {
+          clear: both;
+          height: 368px;
+          width: 248px;
+          position: relative; }
+          .proGuss .proMotherMiddle section .aside .CArousel ul:nth-of-type(1) {
+            display: block; }
+          .proGuss .proMotherMiddle section .aside .CArousel ul {
+            position: absolute;
+            height: 368px;
+            width: 248px;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            display: none; }
+            .proGuss .proMotherMiddle section .aside .CArousel ul li {
+              width: 200px;
+              height: 90px;
+              font-size: 12px;
+              margin: 0 34px;
+              border-bottom: 1px dashed #eaeaea;
+              overflow: hidden; }
+              .proGuss .proMotherMiddle section .aside .CArousel ul li dl {
+                margin-top: 8px;
+                width: 200px;
+                height: 90px; }
+                .proGuss .proMotherMiddle section .aside .CArousel ul li dl dt {
+                  float: left; }
+                .proGuss .proMotherMiddle section .aside .CArousel ul li dl dd {
+                  float: left;
+                  margin-left: 5px; }
+                  .proGuss .proMotherMiddle section .aside .CArousel ul li dl dd p:hover {
+                    text-decoration: underline; }
+                  .proGuss .proMotherMiddle section .aside .CArousel ul li dl dd p a {
+                    color: #666666; }
+                  .proGuss .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) {
+                    margin-top: 10px; }
+                    .proGuss .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(1) {
+                      color: #e71436;
+                      font-size: 13px;
+                      font-weight: bold; }
+                    .proGuss .proMotherMiddle section .aside .CArousel ul li dl dd p:nth-of-type(2) span:nth-of-type(2) {
+                      color: #999999;
+                      text-decoration: line-through;
+                      margin-left: 8px; }
+            .proGuss .proMotherMiddle section .aside .CArousel ul li:nth-of-type(4) {
+              border-bottom: none; }
+  .proGuss .proMotherBottom {
+    height: 100px;
+    width: 1094px;
+    margin: 13px auto;
+    background: #fff; }
+    .proGuss .proMotherBottom ul {
+      height: 100px;
+      width: 1094px; }
+      .proGuss .proMotherBottom ul li:nth-of-type(1) {
+        margin-left: 0px; }
+      .proGuss .proMotherBottom ul li:hover i {
+        display: block !important;
+        color: #D43F3A !important;
+        font-weight: bolder !important; }
+      .proGuss .proMotherBottom ul li {
+        float: left;
+        width: 121px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin-left: 18px; }
+        .proGuss .proMotherBottom ul li a {
+          position: relative;
+          display: inline-block;
+          width: 121px;
+          height: 100px; }
+          .proGuss .proMotherBottom ul li a img {
+            width: 121px;
+            height: 100px; }
+          .proGuss .proMotherBottom ul li a i {
+            display: none;
+            position: absolute;
+            top: -37px;
+            right: 2px; }
+  .proGuss .contain {
+    width: 1092px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px solid #EAEAEA; }
+    .proGuss .contain dl {
+      float: left;
+      background: #fff;
+      float: left;
+      width: 272px;
+      height: 350px;
+      border-right: 1px solid #EAEAEA; }
+      .proGuss .contain dl dt {
+        width: 271px;
+        height: 271px; }
+        .proGuss .contain dl dt a {
+          display: block;
+          width: 271px;
+          height: 271px; }
+          .proGuss .contain dl dt a img {
+            width: 271px;
+            height: 271px; }
+      .proGuss .contain dl dd {
+        font-size: 12px; }
+        .proGuss .contain dl dd > p {
+          height: 40px;
+          width: 271px; }
+          .proGuss .contain dl dd > p a {
+            color: #333; }
+        .proGuss .contain dl dd div {
+          margin-top: 10px;
+          height: 24px;
+          width: 271px; }
+          .proGuss .contain dl dd div > p:nth-of-type(1) {
+            float: left; }
+            .proGuss .contain dl dd div > p:nth-of-type(1) span:nth-of-type(1) {
+              color: #e31436;
+              font-size: 14px;
+              font-weight: bold; }
+            .proGuss .contain dl dd div > p:nth-of-type(1) span:nth-of-type(2) {
+              color: #A9A9A9;
+              display: inline-block;
+              text-decoration: line-through;
+              margin-left: 5px; }
+          .proGuss .contain dl dd div > p:nth-of-type(2) {
+            float: right; }
+            .proGuss .contain dl dd div > p:nth-of-type(2) a {
+              color: #A9A9A9; }
+    .proGuss .contain dl:nth-of-type(4) {
+      border-right: none; }
+
+/*# sourceMappingURL=index.css.map */

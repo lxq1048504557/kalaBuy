@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>确认订单页面</title>
+		<link rel="stylesheet" href="/PC/pc_project/css/base.css" />
+		<link rel="stylesheet" href="/PC/pc_project/css/confirm.css" />
+		<link rel="stylesheet" href="/PC/pc_project/font/iconfont.css" />
+		<script src="/PC/pc_project/lib/requirejs/require.js" data-main="/PC/pc_project/js/confirm" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="Header"></div>
+		<div class="main">
+			<div class="boxWrap">
+				<div class="confirmAdress">
+					<h4>选择收货地址</h4>
+					<div class="adress">
+						<p>
+							<span><em>*</em>所在地区</span>
+							<span>
+								<select name="" id="province"></select>
+								<select name="" id="city"></select>
+								<select name="" id="County"></select>
+								<select name="" id="township"></select>
+							</span>
+						</p>
+						<p>
+							<span><em>*</em>详细地址</span>
+							<span>
+								<input  id="detailAdress" type="text" placeholder="无需重复填写省市区，5个字符以上，小于75字" value="" />
+							</span>
+						</p>
+						<p>
+							<span><em>*</em>收货人姓名</span>
+							<span>
+								<input id="getName" type="text" placeholder="不能为昵称、X先生、X小姐等，请使用正式姓名" value=""/>
+							</span>
+						</p>
+						<p>
+							<span><em>*</em>手机号</span>
+							<span>
+								<input id="moblePhone" type="text" placeholder="手机号码，电话号码必须一致" value=""/>
+							</span>
+						</p>
+						<p>
+							<span>电话号码</span>
+							<span>
+								<input id="phone" type="text" placeholder="填写电话号" value=""/>
+							</span>
+						</p>
+						<p>
+							<span>邮箱</span>
+							<span>
+								<input id="emailAdress" type="text" placeholder="接受订单提醒邮件，便于您及时了解订单状态" value=""/>
+							</span>
+						</p>
+						<p><button id="btn">保存新地址</button></p>
+					</div>
+					<div class="submitAdress">
+						<div class="boxAdress">
+							<p>
+								<a href="#"><span class="name"></span>收</a>
+								<a href="#">默认地址</a>
+							</p>
+							<p><a class="province" href="#"></a><a  class="city" href="#"></a><a  class="country" href="#"></a></p>
+							<p><a class="detailAdress" href="#"></a></p>
+							<p><a  class="moblephone" href="#"></a></p>
+							<p><a  class="phone" href="#"></a></p>
+							<p class="show"><span><a  id="change" href="#">修改</a></span><span><a href="#">删除</a></span></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="confirmPro"></div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>

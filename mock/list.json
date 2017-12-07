@@ -1,0 +1,14 @@
+{
+	"stutas":1,
+	"message":"success",
+	"data":[
+	{"id":1,"title":"挪威知名品牌鱼油","price":228,"href":"http://localhost/PC/pc_project/html/detail.html","img":"/PC/pc_project/images/onlineihlt8qgl20064.jpg",
+		"rethat":"剩余件数228","buyQuick":"立即抢购"},
+	{"id":2,"title":"挪威知名品牌鱼油","price":228,"href":"http://localhost/PC/pc_project/html/detail.html","img":"/PC/pc_project/images/boy1.jpg",
+		"rethat":"剩余件数1228","buyQuick":"立即抢购"},
+	{"id":3,"title":"时尚有型 欧美潮流","price":228,"href":"http://localhost/PC/pc_project/html/detail.html","img":"/PC/pc_project/images/boy2.jpg",
+		"rethat":"剩余件数2228","buyQuick":"立即抢购"},
+	{"id":4,"title":"燃塑形减脂烧脂肪","price":228,"href":"http://localhost/PC/pc_project/html/detail.html","img":"/PC/pc_project/images/boy3.jpg",
+		"rethat":"剩余件数2288","buyQuick":"立即抢购"}
+	]
+}

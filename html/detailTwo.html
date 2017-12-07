@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页面2</title>
+		<link rel="stylesheet" href="/PC/pc_project/css/base.css" />
+		<link rel="stylesheet" href="/PC/pc_project/css/detail.css" />
+		<link rel="stylesheet" href="/PC/pc_project/font/iconfont.css" />
+		<link href="/PC/pc_project/css/slider/slider.css" rel="stylesheet" type="text/css">
+		<script src="/PC/pc_project/lib/requirejs/require.js" data-main="/PC/pc_project/js/detail" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="Header"></div>
+		<div class="main">
+			<div class="boxwrap">
+				<div class="top">
+					<div class="proQuility">
+						<p>
+							<a href="#">网易考拉海购></a>
+							<span>网易严选&nbsp;素雅超薄羊毛围巾</span>
+						</p>
+						<ul>
+							<li><a href="#">自营店铺</a></li>
+							<li><a href="#">服务保障</a></li>
+							<li><a href="#">网易考拉自营严选店</a></li>
+							<li><a href="#">进店看看</a></li>
+						</ul>
+					</div>
+					<div class="proDetail">
+						<div class="leftAside">
+							<input type="hidden" class="id" value="2" />
+							<img id="img_0" src="/PC/pc_project/images/sliderbig1.jpg" data-zoom-image="/PC/pc_project/images/sliderbig1.jpg"/>
+							<div id="gal1" class="slider4">
+							    <div class="slide">
+							    	<a href="#" data-image="/PC/pc_project/images/sliderbig1.jpg" data-zoom-image="/PC/pc_project/images/sliderbig1.jpg">
+							      		<img id="img_01" src="/PC/pc_project/images/big1.jpg" />
+							    	</a>
+							    </div>
+							    <div class="slider">
+							    	<a href="#" data-image="/PC/pc_project/images/big2.jpg" data-zoom-image="/PC/pc_project/images/big2.jpg">
+							      		<img id="img_01" src="/PC/pc_project/images/big2.jpg" />
+							    	</a>
+							    </div>
+							    <div class="slider">
+							    	<a href="#" data-image="/PC/pc_project/images/big3.jpg" data-zoom-image="/PC/pc_project/images/big3.jpg">
+								      <img id="img_01" src="/PC/pc_project/images/big3.jpg" />
+								    </a>
+							    </div>
+							    <div class="slider">
+							    	<a href="#" data-image="/PC/pc_project/images/big4.jpg" data-zoom-image="/PC/pc_project/images/big4.jpg">
+								      <img id="img_01" src="/PC/pc_project/images/big4.jpg" />
+								    </a>
+							    </div>
+							    <div class="slider">
+							    	<a href="#" data-image="/PC/pc_project/images/big5.jpg" data-zoom-image="/PC/pc_project/images/big5.jpg">
+								      <img id="img_01" src="/PC/pc_project/images/big5.jpg" />
+								    </a>
+							    </div>
+							</div>
+						</div>
+						<div class="rightAside">
+							<p class="proCountry">
+								<span><a href="#">意大利&nbsp;</a>|</span>
+								<span>GUCCI</span>
+							</p>
+							<h4>【日本随手办】ISHIYA 白色恋人 北海道白巧克力夹心薄饼 24片/盒 礼盒装</h4>
+							<p class="proProduce">白色恋人已成为北海道的代名词</p>
+							<div class="priceDetail">
+								<div class="price">
+									<p>售价</p>
+									<p><span id="proPrice">￥2190.00</span><span>6折</span><span>参考价&nbsp;3690.00</span></p>
+								</div>
+								<div class="serviceDetail">
+									<div class="serviceTop">
+										<p><span>税费</span><span><strong>【本商品包税】</strong>若配送期间产生税费，请联系客服报销</span></p>
+										<p>
+											<span>运费</span>
+											<span>
+												香港至
+												<select name="" id="province"></select>
+												<select name="" id="city"></select>
+												<select name="" id="County"></select>
+												<select name="" id="township"></select>
+												预估运费80元起
+											</span>
+										</p>
+										<p><span>服务</span><span>本商品&nbsp;<em>米兰国际奢侈品专卖店&nbsp;发货</em></span></p>
+										<p><span>尺码</span><span class="size">180x48cm</span></p>
+										<p>
+											<span>颜色</span>
+											<span>
+												<a href="#"><img class="imgClick" src="/PC/pc_project/images/sm1.jpg"/></a>
+												<a href="#"><img src="/PC/pc_project/images/sm2.jpg"/></a>
+												<a href="#"><img src="/PC/pc_project/images/sm3.jpg"/></a>
+												<a href="#"><img src="/PC/pc_project/images/sm4.jpg"/></a>
+											</span>
+										</p>
+										<p><span>数量</span><span><em class="minus">-</em><input type="text"  id="amout" value="1" size="1"  style="outline: none;"/><em class="add">+</em>库存充足</span></p>
+										<p><span>说明</span><span>不支持7天无理由退货</span></p>
+									</div>
+									<div class="serviceBottom">
+										<p>
+											<a href="#">立即购买</a>
+											<a href="http://localhost/PC/pc_project/html/cart.html"><i class="iconfont icon-cart"></i>加入购物车</a>
+											<a href="#"><i class="iconfont icon-aixin"></i>收藏</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="bottom">
+						<h4><a href="#">相关推荐</a></h4>
+						<div class="tuiPro">
+							<script type="text/html" id="tui_pro">
+								{{each products as Product}}
+									<dl>
+										<dt><a href="#"><img src="{{Product.img}}"/></a></dt>
+										<dd><a href="#">{{Product.title}}</a></dd>
+										<dd><span>{{Product.price}}</span><span>{{Product.oldPrice}}</span></dd>
+										<dd><a href="#">{{Product.critise}}</a></dd>
+									</dl>
+								{{/each}}
+							</script>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>

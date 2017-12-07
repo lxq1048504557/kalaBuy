@@ -1,0 +1,19 @@
+{
+	"stutas":1,
+	"message":"success",
+	"data":[
+	{"id":1,"title":"EMPORIO ARMANI阿玛尼男士棉质圆领短袖","price":"￥299","oldPrice":"￥498","img":"/PC/pc_project/images/pro1.jpg",
+		"critise":"1999人已经评价"},
+	{"id":2,"title":"EMPORIO ARMANI阿玛尼男士棉质圆领短袖","price":"￥1299","oldPrice":"￥1498","img":"/PC/pc_project/images/pro2.jpg",
+		"critise":"199人已经评价"},
+	{"id":3,"title":"EMPORIO ARMANI阿玛尼男士棉质圆领短袖","price":"￥2299","oldPrice":"￥2498","img":"/PC/pc_project/images/pro3.jpg",
+		"critise":"19人已经评价"},
+	{"id":4,"title":"EMPORIO ARMANI阿玛尼男士棉质圆领短袖","price":"￥299","oldPrice":"￥498","img":"/PC/pc_project/images/pro4.jpg",
+		"critise":"1119人已经评价"},
+	{"id":5,"title":"EMPORIO ARMANI阿玛尼男士棉质圆领短袖","price":"￥599","oldPrice":"￥698","img":"/PC/pc_project/images/pro5.jpg",
+		"critise":"119人已经评价"},
+	{"id":6,"title":"EMPORIO ARMANI阿玛尼男士棉质圆领短袖","price":"￥699","oldPrice":"￥798","img":"/PC/pc_project/images/pro6.jpg",
+		"critise":"19人已经评价"}
+	]
+	
+}

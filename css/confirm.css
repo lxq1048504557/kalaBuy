@@ -1,0 +1,127 @@
+.boxWrap {
+  width: 1094px;
+  margin: 0 auto; }
+  .boxWrap .confirmAdress {
+    margin-top: 10px;
+    height: 477px;
+    width: 1094px; }
+    .boxWrap .confirmAdress h4 {
+      height: 34px;
+      border-bottom: 1px solid #E0E0E0;
+      line-height: 34px;
+      font-size: 16px; }
+    .boxWrap .confirmAdress .adress {
+      display: block;
+      height: 444px; }
+      .boxWrap .confirmAdress .adress p {
+        font-size: 12px;
+        margin-top: 10px;
+        height: 36px;
+        width: 1094px; }
+        .boxWrap .confirmAdress .adress p span {
+          display: inline-block;
+          float: lft; }
+        .boxWrap .confirmAdress .adress p span:nth-of-type(1) {
+          width: 80px; }
+          .boxWrap .confirmAdress .adress p span:nth-of-type(1) em {
+            font-style: normal;
+            color: #D22046; }
+        .boxWrap .confirmAdress .adress p span:nth-of-type(2) {
+          margin-left: 20px; }
+          .boxWrap .confirmAdress .adress p span:nth-of-type(2) input {
+            height: 36px;
+            width: 460px; }
+      .boxWrap .confirmAdress .adress p:nth-of-type(2) {
+        height: 66px; }
+      .boxWrap .confirmAdress .adress p:nth-of-type(7) button {
+        margin-top: 5px;
+        width: 130px;
+        height: 40px;
+        background: red;
+        color: white;
+        margin-left: 102px;
+        line-height: 40px;
+        text-align: center;
+        outline: none;
+        border: none; }
+    .boxWrap .confirmAdress .submitAdress {
+      display: none;
+      margin-top: 5px;
+      height: 220px;
+      width: 344px;
+      border: 2px solid firebrick;
+      font-size: 12px; }
+      .boxWrap .confirmAdress .submitAdress .boxAdress:hover .show {
+        display: block; }
+        .boxWrap .confirmAdress .submitAdress .boxAdress:hover .show a {
+          text-decoration: underline; }
+      .boxWrap .confirmAdress .submitAdress .boxAdress {
+        height: 220px;
+        width: 344px; }
+        .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(1) {
+          width: 300px;
+          height: 39px;
+          margin-left: 22px;
+          line-height: 39px;
+          border-bottom: 1px solid #E0E0E0; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(1) a {
+            height: 39px;
+            line-height: 39px;
+            float: left;
+            color: #333;
+            display: inline-block; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(1) a:nth-of-type(2) {
+            float: right; }
+        .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(2) {
+          margin-top: 5px;
+          margin-left: 22px;
+          height: 17px; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(2) a {
+            color: #333;
+            height: 17px;
+            line-height: 17px;
+            display: inline-block;
+            margin-left: 10px; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(2) a:nth-of-type(1) {
+            margin-left: 0px; }
+        .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(3) {
+          margin-top: 5px;
+          margin-left: 22px;
+          height: 14px; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(3) a {
+            color: #333;
+            height: 14px;
+            line-height: 14px;
+            display: inline-block; }
+        .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(4) {
+          margin-top: 5px;
+          margin-left: 22px;
+          height: 14px;
+          width: 69px; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(4) a {
+            color: #333;
+            height: 14px;
+            line-height: 14px;
+            display: inline-block; }
+        .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(6) {
+          display: none;
+          margin-top: 50px;
+          margin-left: 22px;
+          height: 14px; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(6) span {
+            height: 14px;
+            display: inline-block; }
+            .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(6) span a {
+              color: #333;
+              height: 14px;
+              line-height: 14px;
+              display: inline-block; }
+            .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(6) span a:nth-of-type(1) {
+              margin-left: 0px; }
+          .boxWrap .confirmAdress .submitAdress .boxAdress p:nth-of-type(6) span:nth-of-type(2) {
+            margin-left: 5px; }
+  .boxWrap .confirmPro {
+    width: 1094px;
+    background: salmon; }
+
+/*# sourceMappingURL=confirm.css.map */

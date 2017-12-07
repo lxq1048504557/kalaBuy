@@ -1,0 +1,131 @@
+.header {
+  height: 100px;
+  border-bottom: 1px solid #e8e8ea;
+  border-top: 1px solid #e8e8ea; }
+  .header .container {
+    height: 100px;
+    width: 1090px;
+    margin: 0 auto; }
+    .header .container a {
+      display: inline-block;
+      height: 85px;
+      line-height: 100px;
+      padding-top: 15px; }
+
+.main {
+  height: 524px; }
+  .main .box {
+    height: 524px;
+    width: 1090px;
+    margin: 0 auto; }
+    .main .box section {
+      float: left;
+      height: 524px;
+      width: 557px; }
+      .main .box section a {
+        display: inline-block;
+        height: 381px;
+        width: 557px;
+        padding-top: 143px; }
+    .main .box aside {
+      float: left;
+      height: 395px;
+      width: 353px;
+      margin-top: 47px;
+      margin-left: 97px;
+      border: 1px solid #e8e8ea; }
+      .main .box aside > p {
+        height: 58px;
+        width: 353px;
+        border-bottom: 1px solid #e8e8ea; }
+        .main .box aside > p span {
+          display: inline-block;
+          height: 58px;
+          width: 171px;
+          line-height: 58px;
+          text-align: center; }
+        .main .box aside > p span:nth-of-type(1) {
+          color: #e31436;
+          font-size: 15px; }
+        .main .box aside > p span:nth-of-type(2) {
+          color: #333;
+          font-size: 12px; }
+          .main .box aside > p span:nth-of-type(2) a {
+            color: #46B8DA; }
+      .main .box aside .form {
+        height: 336px;
+        width: 353px; }
+        .main .box aside .form #info {
+          display: block;
+          height: 20px;
+          text-align: center;
+          line-height: 20px;
+          font-size: 12px !important; }
+        .main .box aside .form #information {
+          height: 20px;
+          width: 270px;
+          font-size: 12px;
+          text-align: center;
+          line-height: 20px;
+          display: none;
+          color: salmon; }
+        .main .box aside .form div, .main .box aside .form p:nth-of-type(1), .main .box aside .form p:nth-of-type(2), .main .box aside .form p:nth-of-type(3) {
+          width: 270px;
+          height: 36px;
+          border: 1px solid #e8e8ea;
+          position: relative;
+          background: #fff;
+          margin-left: 30px; }
+          .main .box aside .form div i, .main .box aside .form p:nth-of-type(1) i, .main .box aside .form p:nth-of-type(2) i, .main .box aside .form p:nth-of-type(3) i {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 16px !important;
+            color: #e8e8ea !important; }
+          .main .box aside .form div input, .main .box aside .form p:nth-of-type(1) input, .main .box aside .form p:nth-of-type(2) input, .main .box aside .form p:nth-of-type(3) input {
+            border: none;
+            outline: none;
+            height: 36px;
+            width: 230px;
+            margin-left: 40px; }
+        .main .box aside .form p:nth-of-type(2) {
+          width: 270px;
+          font-size: 12px;
+          line-height: 36px; }
+          .main .box aside .form p:nth-of-type(2) img {
+            width: 270px;
+            height: 36px;
+            border: none;
+            display: none; }
+          .main .box aside .form p:nth-of-type(2) i {
+            top: 0px;
+            font-size: 40px !important; }
+        .main .box aside .form div:nth-of-type(1) input:nth-of-type(1) {
+          width: 170px;
+          height: 36px;
+          margin-left: 0; }
+        .main .box aside .form div:nth-of-type(1) input:nth-of-type(2) {
+          width: 100px;
+          height: 36px;
+          margin-left: 0;
+          float: right; }
+        .main .box aside .form p:nth-of-type(2), .main .box aside .form p:nth-of-type(3), .main .box aside .form div {
+          margin-top: 10px; }
+      .main .box aside #sub {
+        width: 270px;
+        height: 36px;
+        outline: none;
+        border: none;
+        position: relative;
+        background: #fff;
+        margin-left: 30px;
+        margin-top: 10px;
+        background: #e31436;
+        color: #fff; }
+      .main .box aside p:nth-of-type(4) {
+        font-size: 12px;
+        margin-left: 28px;
+        color: silver;
+        margin-top: 5px; }
+
+/*# sourceMappingURL=register.css.map */

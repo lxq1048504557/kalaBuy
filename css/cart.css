@@ -1,0 +1,145 @@
+.main {
+  width: 1094px;
+  margin: 0 auto; }
+
+.cartBuy {
+  width: 1094px;
+  margin: 0 auto;
+  font-size: 12px;
+  margin-top: 5px; }
+
+.myCart {
+  margin-left: 0px;
+  font-size: 12px; }
+
+.product {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  line-height: 30px;
+  margin: 10px;
+  float: left;
+  padding: 10px; }
+
+.product .add_to_cart {
+  width: 200px;
+  cursor: pointer;
+  border: 1px solid #666;
+  border-radius: 3px;
+  text-align: center; }
+
+.cart .header_title div, .cart .row div {
+  width: 136px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  overflow: hidden;
+  text-align: left; }
+
+.row {
+  border: 1px solid salmon;
+  height: 42px;
+  margin-top: 5px;
+  padding-top: 12px; }
+
+.cart, .cart .header_title, .cart .row, .cart .cart_body {
+  clear: both; }
+
+.img img {
+  height: 54px;
+  width: 54px; }
+
+.cart_body .row .minus, .cart_body .row .add {
+  width: 20px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer; }
+
+.foot {
+  margin-top: 10px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #E0E0E0;
+  width: 1092px; }
+  .foot p:nth-of-type(1) {
+    float: left; }
+  .foot p:nth-of-type(2) {
+    float: right;
+    background: #E01E35;
+    width: 80px;
+    text-align: center; }
+    .foot p:nth-of-type(2) a {
+      color: white;
+      font-size: 15px; }
+
+.gussLike {
+  width: 1094px; }
+  .gussLike p:nth-of-type(1) {
+    height: 58px;
+    width: 1094px; }
+    .gussLike p:nth-of-type(1) span:nth-of-type(1) {
+      display: inline-block;
+      height: 58px;
+      width: 72px;
+      line-height: 58px;
+      font-size: 15px;
+      color: #333; }
+    .gussLike p:nth-of-type(1) span:nth-of-type(2) {
+      display: inline-block;
+      height: 58px;
+      width: 166px;
+      line-height: 58px;
+      margin-left: 20px;
+      font-size: 12px;
+      color: #E0E0E0; }
+  .gussLike .gussPro {
+    height: 306px;
+    width: 1094px; }
+    .gussLike .gussPro dl:nth-of-type(1) {
+      margin-left: 0px; }
+    .gussLike .gussPro dl {
+      margin-left: 10px;
+      height: 304px;
+      width: 204px;
+      border: 1px solid #E0E0E0;
+      float: left; }
+      .gussLike .gussPro dl dt a {
+        display: block;
+        height: 204px;
+        width: 204px; }
+        .gussLike .gussPro dl dt a img {
+          height: 204px;
+          width: 204px; }
+      .gussLike .gussPro dl dd a {
+        line-height: 20px;
+        font-size: 12px;
+        color: #333; }
+      .gussLike .gussPro dl dd:nth-of-type(1) {
+        width: 204px;
+        height: 40px; }
+      .gussLike .gussPro dl dd:nth-of-type(2) {
+        margin-top: 5px;
+        width: 174px;
+        height: 15px;
+        line-height: 15px; }
+        .gussLike .gussPro dl dd:nth-of-type(2) span:nth-of-type(1) {
+          display: inline-block;
+          color: #e31436;
+          font-weight: bolder;
+          font-size: 16px;
+          margin-right: 10px; }
+        .gussLike .gussPro dl dd:nth-of-type(2) span:nth-of-type(2) {
+          font-size: 12px;
+          text-decoration: line-through;
+          color: #999999; }
+      .gussLike .gussPro dl dd:nth-of-type(3) {
+        margin-top: 5px; }
+        .gussLike .gussPro dl dd:nth-of-type(3) a {
+          display: block;
+          height: 14px;
+          color: #999999;
+          line-height: 14px; }
+
+/*# sourceMappingURL=cart.css.map */

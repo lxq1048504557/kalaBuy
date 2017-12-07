@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<link rel="stylesheet" href="/PC/pc_project/css/base.css" />
+		<link rel="stylesheet" href="/PC/pc_project/css/cart.css" />
+		<link rel="stylesheet" href="/PC/pc_project/font/iconfont.css" />
+		<script src="/PC/pc_project/lib/requirejs/require.js" data-main="/PC/pc_project/js/cart" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="Header"></div>
+		<div class="main">
+			<div class="cartBuy">
+				<div class="myCart">我的购物车</div>
+				<div class="cart">
+					<div class="header_title">
+						<div class="ck"><label><input type="checkbox" id="ck_all">全选</label></div>
+						<div class="img">图片</div>
+						<div class="name">标题</div>
+						<div class="price">价格</div>
+						<div class="amount">数量</div>
+						<div class="sub">小计</div>
+						<div class="oper">操作</div>
+					</div>
+					<div class="cart_body">
+						
+					</div>
+			
+					<div class="foot" style="clear: both;">
+						<p>合计：<span id="total">0.00</span></p>
+						<p><a href="http://localhost/PC/pc_project/html/confirm.html">去结算</a></p>
+					</div>
+				</div>
+				<!--建立模板引擎，动态创建商品信息-->
+				<script type="text/html" id="cart_products">
+					{{each product as prod}}
+						<div class="row">
+							<input type="hidden" class="ID" value="{{prod.id}}" />
+							<div class="ck"><input type="checkbox" class="ck_prod"></div>
+							<div class="img"><img src="{{prod.Img}}"></div>
+							<div class="title">{{prod.Title}}</div>
+							<div class="size">{{prod.Size}}</div>
+							<div class="price">{{prod.Price}}</div>
+							<div class="amount"><span class="minus">-</span><input type="text" class="amount_val" value="{{prod.amount}}" size="1"><span class="add">+</span></div>
+							<div class="sub">{{(prod.Price*prod.amount).toFixed(2)}}</div>
+							<div class="oper"><a class="del" href="javascript:void(0);">删除</a></div>
+						</div>
+					{{/each}}
+				</script>
+			</div>
+			<div class="gussLike">
+				<p>
+					<span>最佳搭配</span>
+					<span>根据你的购物车商品推荐</span>
+				</p>
+				<div class="gussPro">
+					<script type="text/html" id="guss_pro">
+							{{each products as Product}}
+								<dl>
+									<dt><a href="{{Product.href}}"><img src="{{Product.img}}"/></a></dt>
+									<dd><a href="#">{{Product.title}}</a></dd>
+									<dd><span>{{Product.price}}</span><span>{{Product.oldPrice}}</span></dd>
+									<dd><a href="#">{{Product.critise}}</a></dd>
+								</dl>
+							{{/each}}
+					</script>
+				</div>
+			</div>
+			<div class="gussLike">
+				<p>
+					<span>猜你喜欢</span>
+					<span>根据你的浏览记录推荐的商品</span>
+				</p>
+				<div class="gussPro">
+					<script type="text/html" id="guss_pro">
+							{{each products as Product}}
+								<dl>
+									<dt><a href="{{Product.href}}"><img src="{{Product.img}}"/></a></dt>
+									<dd><a href="#">{{Product.title}}</a></dd>
+									<dd><span>{{Product.price}}</span><span>{{Product.oldPrice}}</span></dd>
+									<dd><a href="#">{{Product.critise}}</a></dd>
+								</dl>
+							{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
